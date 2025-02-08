@@ -31,9 +31,3 @@ func RunEd25519Benchmark() {
 	fmt.Printf("Verification Time: %v\n", verifyTime)
 	fmt.Printf("Signature Valid: %v\n", valid)
 }
-
-// RunBenchmarks executes all signature benchmarks.
-func RunBenchmarks() {
-	RunDilithiumBenchmark()
-	RunEd25519Benchmark()
-}
