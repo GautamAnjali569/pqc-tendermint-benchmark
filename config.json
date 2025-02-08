@@ -1,1 +1,6 @@
+{
+  "dilithium_mode": 5,
+  "message_size": 256,
+  "num_iterations": 100
+}
 
