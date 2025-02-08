@@ -1,4 +1,3 @@
-
 package benchmarks
 
 import (
@@ -31,9 +30,4 @@ func RunDilithiumBenchmark() {
 	verifyTime := time.Since(start)
 	fmt.Printf("Verification Time: %v\n", verifyTime)
 	fmt.Printf("Signature Valid: %v\n", valid)
-}
-
-// RunBenchmarks executes all signature benchmarks.
-func RunBenchmarks() {
-	RunDilithiumBenchmark()
 }
