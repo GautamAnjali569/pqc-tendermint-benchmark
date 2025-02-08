@@ -1,1 +1,4 @@
+Algorithm,Operation,Time(ns)
+Dilithium,KeyGen,123456
+Ed25519,Sign,98765
 
